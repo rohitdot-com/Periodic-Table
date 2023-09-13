@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: #202124;
+    position: relative;
+    top: 15px;
+}
+
+.box {
+    height: 70px;
+    width: 75px;
+    border: 2px solid #000000;
+    border-radius: 8px;
+    transition: transform 0.3s;
+    /*This Line Work on Hover*/
+}
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.last-element-container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 10px;
+}
+
+.internal-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+}
+
+.element-subscript-number {
+    position: relative;
+    left: 3px;
+}
+
+.element-complete-name {
+    text-align: center;
+    font-size: small;
+}
+
+/* Element Box Coloring & Last Footar Notation Coloring */
+
+.f1,
+.lanthanids-color {
+    background-color: #004A77;
+}
+
+.f2,
+.actinides-color {
+    background-color: #613B28;
+}
+
+.h {
+    background-color: #2A4165;
+}
+
+.element-first-col,
+.alkali-metals-color {
+    background-color: #244D57;
+}
+
+.element-second-col,
+.alkaline-earth-metals-color {
+    background-color: #622E39;
+}
+
+.voilet,
+.transition-metals-color {
+    background-color: #433C65;
+}
+
+.r18,
+.noble-gases-color {
+    background-color: #623842;
+}
+
+.light-green,
+.post-transition-metals-color {
+    background-color: #2F4D47;
+}
+
+.light-grey,
+.unknown-properties-color {
+    background-color: #46474C;
+}
+
+.light-b,
+.reactive-non-metals-color {
+    background-color: #2A4165;
+}
+
+.boron,
+.metalloids-color {
+    background-color: #523E1B;
+}
+
+
+/* Last Footer Notation */
+
+.footer-notation-1 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 20px;
+    gap: 50px;
+}
+
+.footer-notation-2 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 30px;
+    gap: 10px;
+}
+
+.f-box-text-align {
+    display: flex;
+    gap: 5px;
+}
+
+
+/* Last Footar Notation */
+
+.footer-box-color {
+    height: 15px;
+    width: 15px;
+    border-radius: 20px;
+}
+
+/* Text Color */
+
+div,
+p,
+h5 {
+    color: whitesmoke;
+}
+
+/* Hover */
+
+.box:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
